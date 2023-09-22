@@ -1,0 +1,8 @@
+.sectionHeightCls {
+    height: 70vh;
+}
+
+.scrollCls {
+    overflow-y: auto;
+    height: 70vh;
+}

@@ -1,0 +1,7 @@
+<div class="p-3 d-flex flex-column" class="sectionHeightCls">
+  <app-toaster-msg *ngIf="showToaster"></app-toaster-msg>
+  <app-header (selectedTabFlag)="tabSelectedValueIndex($event)"></app-header>
+  <app-registration *ngIf="!tabSelectedValue"></app-registration>
+  <app-user-details *ngIf="tabSelectedValue"></app-user-details>
+  <app-footer></app-footer>
+</div>

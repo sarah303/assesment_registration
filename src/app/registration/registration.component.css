@@ -1,0 +1,23 @@
+.sectionHeightCls {
+    height: 70vh;
+}
+
+.scrollCls {
+    overflow-y: auto;
+    height: 70vh;
+}
+
+.deleteAccordionCss {
+    position: absolute;
+    right: 4em;
+    font-size: 16px;
+}
+
+.accordion-body {
+    background: #efefef;
+}
+
+.btn-primary {
+    background: #558755;
+    border: 1px solid #558755
+}

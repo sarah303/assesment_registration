@@ -1,0 +1,27 @@
+<header class="d-flex flex-wrap justify-content-center mb-4">
+    <div class="container text-center w-100 p-3 border-bottom">
+        <div class="row">
+            <div class="col col-md-1">
+                <img src="https://sstorecommonweuprod1.blob.core.windows.net/marketing-content/Circle%20Cardiovascular%20Imaging%20Inc/cvi42/5.16.160/cvi42_icon.svg?v=1"
+                    class="img-thumbnail rounded float-start" alt="LOGO">
+            </div>
+            <div class="col col-md-10">
+                <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link" [ngClass]="selectedFlag==='reg'?'active':''"
+                            [ngClass]="{'active':selectedFlag==='reg'}"
+                            (click)="selectedTabIndex('reg')">Registration</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" [ngClass]="selectedFlag==='user'?'active':''"
+                            (click)="selectedTabIndex('user')">UserDetails</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col col-md-1">
+                <img src="data:image/jpeg;base64,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"
+                    class="img-thumbnail float-end" alt="USER GUEST">
+            </div>
+        </div>
+    </div>
+</header>
